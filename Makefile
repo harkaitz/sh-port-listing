@@ -7,8 +7,8 @@ install:
 install: install-sh
 install-sh:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
-	@echo 'I bin/udp-ports' ; cp bin/udp-ports   $(DESTDIR)$(PREFIX)/bin
 	@echo 'I bin/tcp-ports' ; cp bin/tcp-ports   $(DESTDIR)$(PREFIX)/bin
+	@echo 'I bin/udp-ports' ; cp bin/udp-ports   $(DESTDIR)$(PREFIX)/bin
 ## -- install-sh --
 ## -- license --
 install: install-license
